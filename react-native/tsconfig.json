@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "include": ["**/*.ts", "**/*.tsx", "babel.config.js"],
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@study-zone/models": ["models/index.ts"]
+    }
+  }
+}

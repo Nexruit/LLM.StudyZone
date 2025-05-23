@@ -1,0 +1,37 @@
+﻿{
+  "selectedKubernetesProfile": null,
+  "solutionRunner": {
+    "selectedProfile": "Default",
+    "targetFrameworks": [],
+    "applicationsStartingWithoutBuild": [],
+    "applicationsWithoutAutoRefreshBrowserOnRestart": [],
+    "applicationBatchStartStates": [
+      {
+        "profile": "Default",
+        "applicationOrFolder": "Docker-Dependencies",
+        "value": 0
+      },
+      {
+        "profile": "Default",
+        "applicationOrFolder": "LLM.StudyZone.Angular",
+        "value": 0
+      },
+      {
+        "profile": "Default",
+        "applicationOrFolder": "LLM.StudyZone.AuthServer",
+        "value": 0
+      },
+      {
+        "profile": "Default",
+        "applicationOrFolder": "LLM.StudyZone.HttpApi.Host",
+        "value": 0
+      },
+      {
+        "profile": "Default",
+        "applicationOrFolder": "LLM.StudyZone.Web.Public",
+        "value": 0
+      }
+    ],
+    "folderBatchStartStates": []
+  }
+}

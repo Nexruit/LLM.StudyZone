@@ -1,0 +1,10 @@
+{
+  "config": {
+    "context": "docker-desktop",
+    "namespace": "studyzone-local"
+  },
+  "metadata": {
+    "dotnetEnvironment": "Staging"
+  },
+  "services": {}
+}

@@ -1,0 +1,15 @@
+C:\Users\Vahid\Documents\Projects\LLM.StudyZone\src\LLM.StudyZone.Domain\bin\Debug\net9.0\LLM.StudyZone.Domain.deps.json
+C:\Users\Vahid\Documents\Projects\LLM.StudyZone\src\LLM.StudyZone.Domain\bin\Debug\net9.0\LLM.StudyZone.Domain.dll
+C:\Users\Vahid\Documents\Projects\LLM.StudyZone\src\LLM.StudyZone.Domain\bin\Debug\net9.0\LLM.StudyZone.Domain.pdb
+C:\Users\Vahid\Documents\Projects\LLM.StudyZone\src\LLM.StudyZone.Domain\bin\Debug\net9.0\LLM.StudyZone.Domain.Shared.dll
+C:\Users\Vahid\Documents\Projects\LLM.StudyZone\src\LLM.StudyZone.Domain\bin\Debug\net9.0\LLM.StudyZone.Domain.Shared.pdb
+C:\Users\Vahid\Documents\Projects\LLM.StudyZone\src\LLM.StudyZone.Domain\obj\Debug\net9.0\LLM.StudyZone.Domain.csproj.AssemblyReference.cache
+C:\Users\Vahid\Documents\Projects\LLM.StudyZone\src\LLM.StudyZone.Domain\obj\Debug\net9.0\LLM.StudyZone.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vahid\Documents\Projects\LLM.StudyZone\src\LLM.StudyZone.Domain\obj\Debug\net9.0\LLM.StudyZone.Domain.AssemblyInfoInputs.cache
+C:\Users\Vahid\Documents\Projects\LLM.StudyZone\src\LLM.StudyZone.Domain\obj\Debug\net9.0\LLM.StudyZone.Domain.AssemblyInfo.cs
+C:\Users\Vahid\Documents\Projects\LLM.StudyZone\src\LLM.StudyZone.Domain\obj\Debug\net9.0\LLM.StudyZone.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Vahid\Documents\Projects\LLM.StudyZone\src\LLM.StudyZone.Domain\obj\Debug\net9.0\LLM.Stud.39B192C9.Up2Date
+C:\Users\Vahid\Documents\Projects\LLM.StudyZone\src\LLM.StudyZone.Domain\obj\Debug\net9.0\LLM.StudyZone.Domain.dll
+C:\Users\Vahid\Documents\Projects\LLM.StudyZone\src\LLM.StudyZone.Domain\obj\Debug\net9.0\refint\LLM.StudyZone.Domain.dll
+C:\Users\Vahid\Documents\Projects\LLM.StudyZone\src\LLM.StudyZone.Domain\obj\Debug\net9.0\LLM.StudyZone.Domain.pdb
+C:\Users\Vahid\Documents\Projects\LLM.StudyZone\src\LLM.StudyZone.Domain\obj\Debug\net9.0\ref\LLM.StudyZone.Domain.dll

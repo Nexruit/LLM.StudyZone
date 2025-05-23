@@ -1,0 +1,15 @@
+C:\Users\Vahid\Documents\Projects\LLM.StudyZone\src\LLM.StudyZone.Application.Contracts\bin\Debug\net9.0\LLM.StudyZone.Application.Contracts.deps.json
+C:\Users\Vahid\Documents\Projects\LLM.StudyZone\src\LLM.StudyZone.Application.Contracts\bin\Debug\net9.0\LLM.StudyZone.Application.Contracts.dll
+C:\Users\Vahid\Documents\Projects\LLM.StudyZone\src\LLM.StudyZone.Application.Contracts\bin\Debug\net9.0\LLM.StudyZone.Application.Contracts.pdb
+C:\Users\Vahid\Documents\Projects\LLM.StudyZone\src\LLM.StudyZone.Application.Contracts\bin\Debug\net9.0\LLM.StudyZone.Domain.Shared.dll
+C:\Users\Vahid\Documents\Projects\LLM.StudyZone\src\LLM.StudyZone.Application.Contracts\bin\Debug\net9.0\LLM.StudyZone.Domain.Shared.pdb
+C:\Users\Vahid\Documents\Projects\LLM.StudyZone\src\LLM.StudyZone.Application.Contracts\obj\Debug\net9.0\LLM.StudyZone.Application.Contracts.csproj.AssemblyReference.cache
+C:\Users\Vahid\Documents\Projects\LLM.StudyZone\src\LLM.StudyZone.Application.Contracts\obj\Debug\net9.0\LLM.StudyZone.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vahid\Documents\Projects\LLM.StudyZone\src\LLM.StudyZone.Application.Contracts\obj\Debug\net9.0\LLM.StudyZone.Application.Contracts.AssemblyInfoInputs.cache
+C:\Users\Vahid\Documents\Projects\LLM.StudyZone\src\LLM.StudyZone.Application.Contracts\obj\Debug\net9.0\LLM.StudyZone.Application.Contracts.AssemblyInfo.cs
+C:\Users\Vahid\Documents\Projects\LLM.StudyZone\src\LLM.StudyZone.Application.Contracts\obj\Debug\net9.0\LLM.StudyZone.Application.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Vahid\Documents\Projects\LLM.StudyZone\src\LLM.StudyZone.Application.Contracts\obj\Debug\net9.0\LLM.Stud.3D9780A1.Up2Date
+C:\Users\Vahid\Documents\Projects\LLM.StudyZone\src\LLM.StudyZone.Application.Contracts\obj\Debug\net9.0\LLM.StudyZone.Application.Contracts.dll
+C:\Users\Vahid\Documents\Projects\LLM.StudyZone\src\LLM.StudyZone.Application.Contracts\obj\Debug\net9.0\refint\LLM.StudyZone.Application.Contracts.dll
+C:\Users\Vahid\Documents\Projects\LLM.StudyZone\src\LLM.StudyZone.Application.Contracts\obj\Debug\net9.0\LLM.StudyZone.Application.Contracts.pdb
+C:\Users\Vahid\Documents\Projects\LLM.StudyZone\src\LLM.StudyZone.Application.Contracts\obj\Debug\net9.0\ref\LLM.StudyZone.Application.Contracts.dll

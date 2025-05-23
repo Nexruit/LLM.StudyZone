@@ -1,0 +1,4 @@
+image:
+  repository: "studyzone/httpapihost"
+  tag: "latest"
+  pullPolicy: IfNotPresent

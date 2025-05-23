@@ -1,0 +1,133 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXTheme": {
+      "version": "4.1.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.TextTemplateManagement": {
+      "version": "9.1.1",
+      "isInstalled": true
+    },
+    "Volo.Chat": {
+      "version": "9.1.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.LanguageManagement": {
+      "version": "9.1.1",
+      "isInstalled": true
+    },
+    "Volo.FileManagement": {
+      "version": "9.1.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict.Pro": {
+      "version": "9.1.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.Gdpr": {
+      "version": "9.1.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.AuditLogging.Pro": {
+      "version": "9.1.1",
+      "isInstalled": true
+    },
+    "Volo.Saas": {
+      "version": "9.1.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity.Pro": {
+      "version": "9.1.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.Account.Pro": {
+      "version": "9.1.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "9.1.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "9.1.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "9.1.1",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "LLM.StudyZone.Application": {
+      "path": "src/LLM.StudyZone.Application/LLM.StudyZone.Application.abppkg",
+      "folder": "src"
+    },
+    "LLM.StudyZone.Application.Tests": {
+      "path": "test/LLM.StudyZone.Application.Tests/LLM.StudyZone.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "LLM.StudyZone.Domain.Shared": {
+      "path": "src/LLM.StudyZone.Domain.Shared/LLM.StudyZone.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "LLM.StudyZone.Application.Contracts": {
+      "path": "src/LLM.StudyZone.Application.Contracts/LLM.StudyZone.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "LLM.StudyZone.HttpApi": {
+      "path": "src/LLM.StudyZone.HttpApi/LLM.StudyZone.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "LLM.StudyZone.HttpApi.Client": {
+      "path": "src/LLM.StudyZone.HttpApi.Client/LLM.StudyZone.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "LLM.StudyZone.AuthServer": {
+      "path": "src/LLM.StudyZone.AuthServer/LLM.StudyZone.AuthServer.abppkg",
+      "folder": "src"
+    },
+    "LLM.StudyZone.HttpApi.Host": {
+    "path": "src/LLM.StudyZone.HttpApi.Host/LLM.StudyZone.HttpApi.Host.abppkg",
+    "folder": "src"
+    },
+    "LLM.StudyZone.EntityFrameworkCore.Tests": {
+      "path": "test/LLM.StudyZone.EntityFrameworkCore.Tests/LLM.StudyZone.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "LLM.StudyZone.EntityFrameworkCore": {
+      "path": "src/LLM.StudyZone.EntityFrameworkCore/LLM.StudyZone.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "LLM.StudyZone.TestBase": {
+      "path": "test/LLM.StudyZone.TestBase/LLM.StudyZone.TestBase.abppkg",
+      "folder": "test"
+    },
+    "LLM.StudyZone.Domain.Tests": {
+      "path": "test/LLM.StudyZone.Domain.Tests/LLM.StudyZone.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "LLM.StudyZone.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/LLM.StudyZone.HttpApi.Client.ConsoleTestApp/LLM.StudyZone.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "LLM.StudyZone.DbMigrator": {
+      "path": "src/LLM.StudyZone.DbMigrator/LLM.StudyZone.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "LLM.StudyZone.Web.Public": {
+      "path": "src/LLM.StudyZone.Web.Public/LLM.StudyZone.Web.Public.abppkg",
+      "folder": "src"
+    },
+    "LLM.StudyZone.Domain": {
+      "path": "src/LLM.StudyZone.Domain/LLM.StudyZone.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}

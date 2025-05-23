@@ -1,0 +1,24 @@
+volumes:
+  studyzone_rabbitmq:
+networks:
+  studyzone:
+    external: true
+
+services:
+  rabbitmq:
+    container_name: rabbitmq
+    image: rabbitmq:3.12.7-management-alpine
+    volumes:
+      - studyzone_rabbitmq:/var/lib/rabbitmq
+    networks:
+      - studyzone
+    ports:
+      - "15672:15672"
+      - "5672:5672"
+  redis:
+    container_name: redis
+    image: redis:7.2.2-alpine
+    networks:
+      - studyzone
+    ports:
+      - "6379:6379"

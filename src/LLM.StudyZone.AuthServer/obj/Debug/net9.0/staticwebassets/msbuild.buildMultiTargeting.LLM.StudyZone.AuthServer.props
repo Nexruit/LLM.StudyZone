@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\LLM.StudyZone.AuthServer.props" />
+</Project>

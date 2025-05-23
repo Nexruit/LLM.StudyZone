@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "ERvVjDGWNWexGQk1CRP6ABzM3ZiqEt5En0k9EhQTKFc=",
+  "Source": "LLM.StudyZone.HttpApi.Host",
+  "BasePath": "_content/LLM.StudyZone.HttpApi.Host",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

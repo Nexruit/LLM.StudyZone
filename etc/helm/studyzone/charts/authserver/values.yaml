@@ -1,0 +1,4 @@
+image:
+  repository: "studyzone/authserver"
+  tag: "latest"
+  pullPolicy: IfNotPresent

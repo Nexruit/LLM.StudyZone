@@ -1,0 +1,14 @@
+global:
+  hosts:
+    dbmigrator: "[RELEASE_NAME]-dbmigrator"
+    webpublic: "[RELEASE_NAME]-webpublic"
+    httpapi: "[RELEASE_NAME]-httpapihost"
+    angular: "[RELEASE_NAME]-angular"
+    authserver: "[RELEASE_NAME]-authserver"
+  connectionStrings:
+    default: "Host=[RELEASE_NAME]-postgresql;Port=5432;Database=StudyZone;User ID=postgres;Password=myPassword;"
+  dotnetEnvironment: "Staging"
+  disablePII: "false"
+  stringEncryptionDefaultPassPhrase: "qXjwSrAlTsBiGNKp"
+  abpStudioClient:
+    isLinkEnabled: "true"

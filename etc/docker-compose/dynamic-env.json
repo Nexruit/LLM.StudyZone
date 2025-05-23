@@ -1,0 +1,25 @@
+{
+  "production": true,
+  "application": {
+    "baseUrl":"http://localhost:4200",
+    "name": "StudyZone",
+    "logoUrl": ""
+  },
+  "oAuthConfig": {
+    "issuer": "https://localhost:44386/",
+    "redirectUri": "http://localhost:4200",
+    "clientId": "StudyZone_App",
+    "responseType": "code",
+    "scope": "offline_access openid profile email phone StudyZone"
+  },
+  "apis": {
+    "default": {
+      "url": "https://localhost:44357",
+      "rootNamespace": "StudyZone"
+    },
+    "AbpAccountPublic": {
+      "url": "https://localhost:44386",
+      "rootNamespace": "AbpAccountPublic"
+    }
+  }
+}

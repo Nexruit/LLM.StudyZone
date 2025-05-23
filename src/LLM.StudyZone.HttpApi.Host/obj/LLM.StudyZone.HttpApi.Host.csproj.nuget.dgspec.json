@@ -1,0 +1,947 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Vahid\\Documents\\Projects\\LLM.StudyZone\\src\\LLM.StudyZone.HttpApi.Host\\LLM.StudyZone.HttpApi.Host.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Vahid\\Documents\\Projects\\LLM.StudyZone\\src\\LLM.StudyZone.Application.Contracts\\LLM.StudyZone.Application.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Vahid\\Documents\\Projects\\LLM.StudyZone\\src\\LLM.StudyZone.Application.Contracts\\LLM.StudyZone.Application.Contracts.csproj",
+        "projectName": "LLM.StudyZone.Application.Contracts",
+        "projectPath": "C:\\Users\\Vahid\\Documents\\Projects\\LLM.StudyZone\\src\\LLM.StudyZone.Application.Contracts\\LLM.StudyZone.Application.Contracts.csproj",
+        "packagesPath": "C:\\Users\\Vahid\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vahid\\Documents\\Projects\\LLM.StudyZone\\src\\LLM.StudyZone.Application.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Vahid\\Documents\\Projects\\LLM.StudyZone\\NuGet.Config",
+          "C:\\Users\\Vahid\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.abp.io/07a1c39e-c95a-4d22-a39b-55d5ceb37612/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\Vahid\\Documents\\Projects\\LLM.StudyZone\\src\\LLM.StudyZone.Domain.Shared\\LLM.StudyZone.Domain.Shared.csproj": {
+                "projectPath": "C:\\Users\\Vahid\\Documents\\Projects\\LLM.StudyZone\\src\\LLM.StudyZone.Domain.Shared\\LLM.StudyZone.Domain.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Volo.Abp.Account.Pro.Admin.Application.Contracts": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.Account.Pro.Public.Application.Contracts": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.AuditLogging.Application.Contracts": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.FeatureManagement.Application.Contracts": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.Gdpr.Application.Contracts": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.Identity.Pro.Application.Contracts": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.LanguageManagement.Application.Contracts": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.OpenIddict.Pro.Application.Contracts": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.PermissionManagement.Application.Contracts": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.SettingManagement.Application.Contracts": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.TextTemplateManagement.Application.Contracts": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Chat.Application.Contracts": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.FileManagement.Application.Contracts": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Saas.Host.Application.Contracts": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Vahid\\Documents\\Projects\\LLM.StudyZone\\src\\LLM.StudyZone.Application\\LLM.StudyZone.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Vahid\\Documents\\Projects\\LLM.StudyZone\\src\\LLM.StudyZone.Application\\LLM.StudyZone.Application.csproj",
+        "projectName": "LLM.StudyZone.Application",
+        "projectPath": "C:\\Users\\Vahid\\Documents\\Projects\\LLM.StudyZone\\src\\LLM.StudyZone.Application\\LLM.StudyZone.Application.csproj",
+        "packagesPath": "C:\\Users\\Vahid\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vahid\\Documents\\Projects\\LLM.StudyZone\\src\\LLM.StudyZone.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Vahid\\Documents\\Projects\\LLM.StudyZone\\NuGet.Config",
+          "C:\\Users\\Vahid\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.abp.io/07a1c39e-c95a-4d22-a39b-55d5ceb37612/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\Vahid\\Documents\\Projects\\LLM.StudyZone\\src\\LLM.StudyZone.Application.Contracts\\LLM.StudyZone.Application.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Vahid\\Documents\\Projects\\LLM.StudyZone\\src\\LLM.StudyZone.Application.Contracts\\LLM.StudyZone.Application.Contracts.csproj"
+              },
+              "C:\\Users\\Vahid\\Documents\\Projects\\LLM.StudyZone\\src\\LLM.StudyZone.Domain\\LLM.StudyZone.Domain.csproj": {
+                "projectPath": "C:\\Users\\Vahid\\Documents\\Projects\\LLM.StudyZone\\src\\LLM.StudyZone.Domain\\LLM.StudyZone.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Volo.Abp.Account.Pro.Admin.Application": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.Account.Pro.Public.Application": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.AuditLogging.Application": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.FeatureManagement.Application": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.Gdpr.Application": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.Identity.Pro.Application": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.LanguageManagement.Application": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.OpenIddict.Pro.Application": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.PermissionManagement.Application": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.SettingManagement.Application": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.TextTemplateManagement.Application": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Chat.Application": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.FileManagement.Application": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Saas.Host.Application": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Vahid\\Documents\\Projects\\LLM.StudyZone\\src\\LLM.StudyZone.Domain.Shared\\LLM.StudyZone.Domain.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Vahid\\Documents\\Projects\\LLM.StudyZone\\src\\LLM.StudyZone.Domain.Shared\\LLM.StudyZone.Domain.Shared.csproj",
+        "projectName": "LLM.StudyZone.Domain.Shared",
+        "projectPath": "C:\\Users\\Vahid\\Documents\\Projects\\LLM.StudyZone\\src\\LLM.StudyZone.Domain.Shared\\LLM.StudyZone.Domain.Shared.csproj",
+        "packagesPath": "C:\\Users\\Vahid\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vahid\\Documents\\Projects\\LLM.StudyZone\\src\\LLM.StudyZone.Domain.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Vahid\\Documents\\Projects\\LLM.StudyZone\\NuGet.Config",
+          "C:\\Users\\Vahid\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.abp.io/07a1c39e-c95a-4d22-a39b-55d5ceb37612/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.Extensions.FileProviders.Embedded": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Volo.Abp.AuditLogging.Domain.Shared": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.BackgroundJobs.Domain.Shared": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.BlobStoring.Database.Domain.Shared": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.FeatureManagement.Domain.Shared": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.Gdpr.Domain.Shared": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.GlobalFeatures": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.Identity.Pro.Domain.Shared": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.LanguageManagement.Domain.Shared": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.OpenIddict.Pro.Domain.Shared": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.PermissionManagement.Domain.Shared": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.SettingManagement.Domain.Shared": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.TextTemplateManagement.Domain.Shared": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Chat.Domain.Shared": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.FileManagement.Domain.Shared": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Saas.Domain.Shared": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Vahid\\Documents\\Projects\\LLM.StudyZone\\src\\LLM.StudyZone.Domain\\LLM.StudyZone.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Vahid\\Documents\\Projects\\LLM.StudyZone\\src\\LLM.StudyZone.Domain\\LLM.StudyZone.Domain.csproj",
+        "projectName": "LLM.StudyZone.Domain",
+        "projectPath": "C:\\Users\\Vahid\\Documents\\Projects\\LLM.StudyZone\\src\\LLM.StudyZone.Domain\\LLM.StudyZone.Domain.csproj",
+        "packagesPath": "C:\\Users\\Vahid\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vahid\\Documents\\Projects\\LLM.StudyZone\\src\\LLM.StudyZone.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Vahid\\Documents\\Projects\\LLM.StudyZone\\NuGet.Config",
+          "C:\\Users\\Vahid\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.abp.io/07a1c39e-c95a-4d22-a39b-55d5ceb37612/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\Vahid\\Documents\\Projects\\LLM.StudyZone\\src\\LLM.StudyZone.Domain.Shared\\LLM.StudyZone.Domain.Shared.csproj": {
+                "projectPath": "C:\\Users\\Vahid\\Documents\\Projects\\LLM.StudyZone\\src\\LLM.StudyZone.Domain.Shared\\LLM.StudyZone.Domain.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Volo.Abp.AuditLogging.Domain": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.BackgroundJobs.Domain": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.BlobStoring.Database.Domain": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.Caching": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.Commercial.SuiteTemplates": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.Emailing": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.FeatureManagement.Domain": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.Gdpr.Domain": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.Identity.Pro.Domain": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.LanguageManagement.Domain": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.OpenIddict.Pro.Domain": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.PermissionManagement.Domain.Identity": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.PermissionManagement.Domain.OpenIddict": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.SettingManagement.Domain": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.TextTemplateManagement.Domain": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Chat.Domain": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.FileManagement.Domain": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Saas.Domain": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Vahid\\Documents\\Projects\\LLM.StudyZone\\src\\LLM.StudyZone.EntityFrameworkCore\\LLM.StudyZone.EntityFrameworkCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Vahid\\Documents\\Projects\\LLM.StudyZone\\src\\LLM.StudyZone.EntityFrameworkCore\\LLM.StudyZone.EntityFrameworkCore.csproj",
+        "projectName": "LLM.StudyZone.EntityFrameworkCore",
+        "projectPath": "C:\\Users\\Vahid\\Documents\\Projects\\LLM.StudyZone\\src\\LLM.StudyZone.EntityFrameworkCore\\LLM.StudyZone.EntityFrameworkCore.csproj",
+        "packagesPath": "C:\\Users\\Vahid\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vahid\\Documents\\Projects\\LLM.StudyZone\\src\\LLM.StudyZone.EntityFrameworkCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Vahid\\Documents\\Projects\\LLM.StudyZone\\NuGet.Config",
+          "C:\\Users\\Vahid\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.abp.io/07a1c39e-c95a-4d22-a39b-55d5ceb37612/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\Vahid\\Documents\\Projects\\LLM.StudyZone\\src\\LLM.StudyZone.Domain\\LLM.StudyZone.Domain.csproj": {
+                "projectPath": "C:\\Users\\Vahid\\Documents\\Projects\\LLM.StudyZone\\src\\LLM.StudyZone.Domain\\LLM.StudyZone.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Volo.Abp.AuditLogging.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.BackgroundJobs.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.BlobStoring.Database.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.EntityFrameworkCore.PostgreSql": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.FeatureManagement.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.Gdpr.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.Identity.Pro.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.LanguageManagement.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.OpenIddict.Pro.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.PermissionManagement.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.SettingManagement.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.TextTemplateManagement.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Chat.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.FileManagement.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Saas.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Vahid\\Documents\\Projects\\LLM.StudyZone\\src\\LLM.StudyZone.HttpApi.Host\\LLM.StudyZone.HttpApi.Host.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Vahid\\Documents\\Projects\\LLM.StudyZone\\src\\LLM.StudyZone.HttpApi.Host\\LLM.StudyZone.HttpApi.Host.csproj",
+        "projectName": "LLM.StudyZone.HttpApi.Host",
+        "projectPath": "C:\\Users\\Vahid\\Documents\\Projects\\LLM.StudyZone\\src\\LLM.StudyZone.HttpApi.Host\\LLM.StudyZone.HttpApi.Host.csproj",
+        "packagesPath": "C:\\Users\\Vahid\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vahid\\Documents\\Projects\\LLM.StudyZone\\src\\LLM.StudyZone.HttpApi.Host\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Vahid\\Documents\\Projects\\LLM.StudyZone\\NuGet.Config",
+          "C:\\Users\\Vahid\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.abp.io/07a1c39e-c95a-4d22-a39b-55d5ceb37612/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\Vahid\\Documents\\Projects\\LLM.StudyZone\\src\\LLM.StudyZone.Application\\LLM.StudyZone.Application.csproj": {
+                "projectPath": "C:\\Users\\Vahid\\Documents\\Projects\\LLM.StudyZone\\src\\LLM.StudyZone.Application\\LLM.StudyZone.Application.csproj"
+              },
+              "C:\\Users\\Vahid\\Documents\\Projects\\LLM.StudyZone\\src\\LLM.StudyZone.EntityFrameworkCore\\LLM.StudyZone.EntityFrameworkCore.csproj": {
+                "projectPath": "C:\\Users\\Vahid\\Documents\\Projects\\LLM.StudyZone\\src\\LLM.StudyZone.EntityFrameworkCore\\LLM.StudyZone.EntityFrameworkCore.csproj"
+              },
+              "C:\\Users\\Vahid\\Documents\\Projects\\LLM.StudyZone\\src\\LLM.StudyZone.HttpApi\\LLM.StudyZone.HttpApi.csproj": {
+                "projectPath": "C:\\Users\\Vahid\\Documents\\Projects\\LLM.StudyZone\\src\\LLM.StudyZone.HttpApi\\LLM.StudyZone.HttpApi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "AspNetCore.HealthChecks.UI": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AspNetCore.HealthChecks.UI.Client": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AspNetCore.HealthChecks.UI.InMemory.Storage": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "DistributedLock.Redis": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Google": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.MicrosoftAccount": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Twitter": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.AspNetCore.DataProtection.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Serilog.Sinks.Async": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Volo.Abp.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.AspNetCore.Serilog": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.Autofac": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.DistributedLocking": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.EventBus.RabbitMQ": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.Identity.AspNetCore": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.Studio.Client.AspNetCore": {
+              "target": "Package",
+              "version": "[0.9.26, )"
+            },
+            "Volo.Abp.Swashbuckle": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Chat.SignalR": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Vahid\\Documents\\Projects\\LLM.StudyZone\\src\\LLM.StudyZone.HttpApi\\LLM.StudyZone.HttpApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Vahid\\Documents\\Projects\\LLM.StudyZone\\src\\LLM.StudyZone.HttpApi\\LLM.StudyZone.HttpApi.csproj",
+        "projectName": "LLM.StudyZone.HttpApi",
+        "projectPath": "C:\\Users\\Vahid\\Documents\\Projects\\LLM.StudyZone\\src\\LLM.StudyZone.HttpApi\\LLM.StudyZone.HttpApi.csproj",
+        "packagesPath": "C:\\Users\\Vahid\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vahid\\Documents\\Projects\\LLM.StudyZone\\src\\LLM.StudyZone.HttpApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Vahid\\Documents\\Projects\\LLM.StudyZone\\NuGet.Config",
+          "C:\\Users\\Vahid\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.abp.io/07a1c39e-c95a-4d22-a39b-55d5ceb37612/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\Vahid\\Documents\\Projects\\LLM.StudyZone\\src\\LLM.StudyZone.Application.Contracts\\LLM.StudyZone.Application.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Vahid\\Documents\\Projects\\LLM.StudyZone\\src\\LLM.StudyZone.Application.Contracts\\LLM.StudyZone.Application.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Volo.Abp.Account.Pro.Admin.HttpApi": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.Account.Pro.Public.HttpApi": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.AuditLogging.HttpApi": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.FeatureManagement.HttpApi": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.Gdpr.HttpApi": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.Identity.Pro.HttpApi": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.LanguageManagement.HttpApi": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.OpenIddict.Pro.HttpApi": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.PermissionManagement.HttpApi": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.SettingManagement.HttpApi": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Abp.TextTemplateManagement.HttpApi": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Chat.HttpApi": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.FileManagement.HttpApi": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "Volo.Saas.Host.HttpApi": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,4 @@
+image:
+  repository: "studyzone/angular"
+  tag: "latest"
+  pullPolicy: IfNotPresent

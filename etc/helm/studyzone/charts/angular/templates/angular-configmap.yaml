@@ -1,0 +1,30 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}-{{ .Chart.Name }}-configmap
+data:
+  dynamic-env.json: |-
+    {
+        "production": "true",
+        "application": {
+            "baseUrl": "{{ include "studyzone.hosts.angular" . }}",
+            "name": "StudyZone",
+            "logoUrl": ""
+        },
+        "oAuthConfig": {
+            "issuer": "{{ include "studyzone.hosts.authserver" . }}",
+            "redirectUri": "{{ include "studyzone.hosts.angular" . }}",
+            "requireHttps": "true",
+            "clientId": "StudyZone_App",
+            "responseType": "code",
+            "scope": "offline_access StudyZone",
+            "strictDiscoveryDocumentValidation": false,
+            "skipIssuerCheck": true
+        },
+        "apis": {
+            "default": {
+                "url": "{{ include "studyzone.hosts.httpapi" . }}",
+                "rootNamespace": "LLM.StudyZone"
+            }
+        }
+    }
